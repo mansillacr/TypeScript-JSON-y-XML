@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supermercados>
+    <super>
+        <nombre>Mercadona</nombre>
+        <direccion>C/Super Nº 2</direccion>
+        <geolocalizacion>
+            <latitud>0º 20º 40º</latitud>
+            <altitud>0º 20º 40º</altitud>
+        </geolocalizacion>
+        <secciones>
+            <departamento name="carniceria">
+                <productos>
+                    <producto>pollo</producto>
+                    <precio>13</precio>
+                    <unidad_medida>kg</unidad_medida>
+                    <unidades>0</unidades>
+                    <adquirido>false</adquirido>
+                    <oferta>false</oferta>
+                    <consumo_habitual>true</consumo_habitual>
+                    <periodo_vigencia>2023-04-02</periodo_vigencia>
+                </productos>
+                <productos>
+                    <producto>lomo de cerdo</producto>
+                    <precio>6.5</precio>
+                    <unidad_medida>kg</unidad_medida>
+                    <unidades>1</unidades>
+                    <adquirido>true</adquirido>
+                    <oferta>true</oferta>
+                    <consumo_habitual>false</consumo_habitual>
+                    <periodo_vigencia>2023-04-12</periodo_vigencia>
+                </productos>
+            </departamento>
+            <departamento name="lacteos">
+                <productos>
+                    <producto>yogurt</producto>
+                    <precio>1.90</precio>
+                    <unidad_medida>g</unidad_medida>
+                    <unidades>0</unidades>
+                    <adquirido>false</adquirido>
+                    <oferta>false</oferta>
+                    <consumo_habitual>true</consumo_habitual>
+                    <periodo_vigencia>2023-03-29</periodo_vigencia>
+                </productos>
+                <productos>
+                    <producto>leche desnatada</producto>
+                    <precio>0.95</precio>
+                    <unidad_medida>l</unidad_medida>
+                    <unidades>0</unidades>
+                    <adquirido>false</adquirido>
+                    <oferta>true</oferta>
+                    <consumo_habitual>true</consumo_habitual>
+                    <periodo_vigencia>2023-04-12</periodo_vigencia>
+                </productos>
+            </departamento>
+        </secciones>
+    </super>
+    <super>
+        <nombre>DÍA</nombre>
+        <direccion>C/SuperMercado2 Nº 23</direccion>
+        <geolocalizacion>
+            <latitud>10º 15º 40º</latitud>
+            <altitud>-10º 20º 40º</altitud>
+        </geolocalizacion>
+        <secciones>
+            <departamento name="carniceria">
+                <productos>
+                    <producto>pollo</producto>
+                    <precio>10</precio>
+                    <unidad_medida>kg</unidad_medida>
+                    <unidades>3</unidades>
+                    <adquirido>true</adquirido>
+                    <oferta>false</oferta>
+                    <consumo_habitual>true</consumo_habitual>
+                    <periodo_vigencia>2023-04-02</periodo_vigencia>
+                </productos>
+                <productos>
+                    <producto>lomo de cerdo</producto>
+                    <precio>7</precio>
+                    <unidad_medida>kg</unidad_medida>
+                    <unidades>0</unidades>
+                    <adquirido>false</adquirido>
+                    <oferta>false</oferta>
+                    <consumo_habitual>false</consumo_habitual>
+                    <periodo_vigencia>2023-04-12</periodo_vigencia>
+                </productos>
+            </departamento>
+            <departamento name="lacteos">
+                <productos>
+                    <producto>yogurt</producto>
+                    <precio>1.79</precio>
+                    <unidad_medida>g</unidad_medida>
+                    <unidades>3</unidades>
+                    <adquirido>true</adquirido>
+                    <oferta>true</oferta>
+                    <consumo_habitual>true</consumo_habitual>
+                    <periodo_vigencia>2023-03-29</periodo_vigencia>
+                </productos>
+                <productos>
+                    <producto>leche desnatada</producto>
+                    <precio>0.85</precio>
+                    <unidad_medida>l</unidad_medida>
+                    <unidades>10</unidades>
+                    <adquirido>true</adquirido>
+                    <oferta>false</oferta>
+                    <consumo_habitual>true</consumo_habitual>
+                    <periodo_vigencia>2023-04-12</periodo_vigencia>
+                </productos>
+            </departamento>
+        </secciones>
+    </super>
+</supermercados>

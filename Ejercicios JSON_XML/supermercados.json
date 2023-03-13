@@ -1,0 +1,111 @@
+{
+    "0" : {
+        "nombre" : "Mercadona",
+        "direccion" : "C/Super Nº 2",
+        "geolocalizacion" : {
+            "latitutd" : "0º 20º 40º",
+            "altitud" : "0º 20º 40º"
+        },
+        "secciones" : {
+            "carnicería" : [
+                {
+                    "producto" : "pollo",
+                    "precio" : 13,
+                    "unidad_medida" : "kg",
+                    "unidades" : 0,
+                    "adquirido" : false,
+                    "oferta" : false,
+                    "consumo_habitual" : true,
+                    "periodo_vigencia" : "2023-04-02"
+                },
+                {
+                    "producto" : "lomo de cerdo",
+                    "precio" : 6.5,
+                    "unidad_medida" : "kg",
+                    "unidades" : 1,
+                    "adquirido" : true,
+                    "oferta" : true,
+                    "consumo_habitual" : false,
+                    "periodo_vigencia" : "2023-04-12"
+                }
+            ],
+             "lacteos" : [
+                {
+                    "producto" : "yogurt",
+                    "precio" : 1.90,
+                    "unidad_medida" : "g",
+                    "unidades" : 0,
+                    "adquirido" : false,
+                    "oferta" : false,
+                    "consumo_habitual" : true,
+                    "periodo_vigencia" : "2023-03-29"
+                },
+                {
+                    "producto" : "leche desnatada",
+                    "precio" : 0.95,
+                    "unidad_medida" : "l",
+                    "unidades" : 0,
+                    "adquirido" : false,
+                    "oferta" : true,
+                    "consumo_habitual" : true,
+                    "periodo_vigencia" : "2023-04-12"
+                }
+            ]
+        }
+    },
+
+    "1" : {
+        "nombre" : "DÍA",
+        "direccion" : "C/SuperMercado2 Nº 23",
+        "geolocalizacion" : {
+            "latitutd" : "10º 15º 40º",
+            "altitud" : "-10º 20º 40º"
+        },
+        "secciones" : {
+            "carnicería" : [
+                {
+                    "producto" : "pollo",
+                    "precio" : 10,
+                    "unidad_medida" : "kg",
+                    "unidades" : 3,
+                    "adquirido" : true,
+                    "oferta" : false,
+                    "consumo_habitual" : true,
+                    "periodo_vigencia" : "2023-04-02"
+                },
+                {
+                    "producto" : "lomo de cerdo",
+                    "precio" : 7,
+                    "unidad_medida" : "kg",
+                    "unidades" : 0,
+                    "adquirido" : false,
+                    "oferta" : false,
+                    "consumo_habitual" : false,
+                    "periodo_vigencia" : "2023-04-12"
+                }
+            ],
+             "lacteos" : [
+                {
+                    "producto" : "yogurt",
+                    "precio" : 1.79,
+                    "unidad_medida" : "g",
+                    "unidades" : 3,
+                    "adquirido" : true,
+                    "oferta" : true,
+                    "consumo_habitual" : true,
+                    "periodo_vigencia" : "2023-03-29"
+                },
+                {
+                    "producto" : "leche desnatada",
+                    "precio" : 0.85,
+                    "unidad_medida" : "l",
+                    "unidades" : 10,
+                    "adquirido" : true,
+                    "oferta" : false,
+                    "consumo_habitual" : true,
+                    "periodo_vigencia" : "2023-04-12"
+                }
+            ]
+        }
+    }
+}
